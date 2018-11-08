@@ -1,4 +1,4 @@
-package class04
+package main.class04
 
 
 fun main(args: Array<String>) {

@@ -1,4 +1,4 @@
-package class05
+package main.class05
 
 fun isLetter(c: Char) = c in 'a'..'z' || c in 'A'..'Z'
 // c in 'a'..'z'

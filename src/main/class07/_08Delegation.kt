@@ -1,4 +1,4 @@
-package class07
+package main.class07
 
 
 interface Repository {

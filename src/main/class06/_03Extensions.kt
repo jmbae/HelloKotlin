@@ -1,5 +1,5 @@
 //@file:JvmName("StringUtil")
-package class06
+package main.class06
 
 fun String.lastChar() = this.get(this.length - 1)
 

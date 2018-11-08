@@ -1,4 +1,4 @@
-package class06
+package main.class06
 
 
 fun higherOrder(value: String, op: (String) -> String): String {

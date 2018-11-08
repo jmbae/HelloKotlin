@@ -1,4 +1,4 @@
-package class05
+package main.class05
 
 fun main(args: Array<String>) {
 //    Expression

@@ -1,4 +1,4 @@
-package class04
+package main.class04
 
 fun sum(a: Int, b: Int, c: Int = 0) = a + b + c
 

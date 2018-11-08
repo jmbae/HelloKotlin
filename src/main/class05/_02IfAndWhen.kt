@@ -1,4 +1,4 @@
-package class05
+package main.class05
 
 enum class Color {
     BLUE, ORANGE, RED

@@ -1,4 +1,4 @@
-package class06
+package main.class06
 
 fun basicSyntax() {
     val sum = { x: Int, y: Int -> x + y }

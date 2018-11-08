@@ -1,4 +1,4 @@
-package class06
+package main.class06
 
 fun max(a: Int, b: Int): Int {
     return if (a < b) a else b

@@ -1,4 +1,4 @@
-package class07
+package main.class07
 
 fun main(args: Array<String>) {
     val set1 = setOf(1, 2, 3)

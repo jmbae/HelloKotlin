@@ -1,4 +1,4 @@
-package class05
+package main.class05
 
 fun whileLoop() {
     fun condition(i: Int) = i < 10

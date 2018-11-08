@@ -1,4 +1,4 @@
-package class07
+package main.class07
 
 open class Person { // 클래스 선언부 괄호는 파라미터가 없을 경우 생략할 수 있다.
     open fun validate() {

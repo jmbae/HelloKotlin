@@ -1,7 +1,7 @@
-package class06
+package main.class06
 
-import class06.util.SomeUtilClass
-import class06.util.somethingPrint as someAnotherNameFunction
+import main.class06.util.SomeUtilClass
+import main.class06.util.somethingPrint as someAnotherNameFunction
 
 fun main(args: Array<String>) {
     SomeUtilClass.printSomeThing()

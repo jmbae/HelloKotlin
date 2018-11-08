@@ -1,4 +1,4 @@
-package class07
+package main.class07
 
 interface Interface1 {
     fun funtionA() {
