@@ -16,7 +16,11 @@ class Controller(repository: Repository, logger: Logger) : Repository by reposit
 }
 
 fun main(args: Array<String>) {
-    val controller = Controller(RepositoryImpl(), LoggerImpl())
+    //다른 어딘가에서
+    val repository = RepositoryImpl()
+    val logger = LoggerImpl()
+
+    val controller = Controller(repository, logger)
 
     controller.getAll()
     controller.logAll()

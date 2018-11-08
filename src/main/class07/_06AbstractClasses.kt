@@ -5,7 +5,7 @@ abstract class StoredEntity {
     val isActive = true
     abstract fun store()
     fun status(): String {
-        return isActive.toString()
+        return "status: " + isActive.toString()
     }
 
 }
@@ -20,6 +20,7 @@ class Employee : StoredEntity() {
 
 fun main(args: Array<String>) {
     val se = Employee()
-    se.isActive
-    se.status()
+    println(se.isActive)
+    println(se.status())
+    se.store()
 }
