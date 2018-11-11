@@ -1,4 +1,4 @@
-package main.class06.util;
+package main.class07.util;
 
 public class SomeUtilClass {
 	public static void printSomeThing() {

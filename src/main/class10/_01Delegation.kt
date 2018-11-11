@@ -1,5 +1,6 @@
-package main.class07
+package main.class10
 
+import main.class07.Customer
 
 interface Repository {
     fun getById(id: Int): Customer

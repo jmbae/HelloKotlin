@@ -1,4 +1,4 @@
-package main.class06.util
+package main.class07.util
 
 fun somethingPrint(something: String) {
     println(something)
