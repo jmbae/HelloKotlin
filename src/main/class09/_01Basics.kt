@@ -1,24 +1,36 @@
 package main.class09
 
-open class Person
-class Employee: Person()
+class Stack<E>(private vararg val items: E) {
+    private val elements = items.reversed().toMutableList()
 
-fun operate(person: List<Person>) {
+    fun push(element: E) {
+        elements.add(0, element)
+    }
 
-}
+    fun pop(): E? {
+        if (!isEmpty())
+            return elements.removeAt(0)
+        return null
+    }
 
-fun invariant() {
-    val elements: MutableList<Any>
-    val strings: MutableList<String> = mutableListOf("A", "B", "C")
-
-    // The line below won't compile
-    //  elements = strings
+    private fun isEmpty(): Boolean {
+        return elements.isEmpty()
+    }
 }
 
 fun main(args: Array<String>) {
+    val stack = Stack(1,2,3,4)
+    println(stack.pop())
+    println(stack.pop())
+    println(stack.pop())
+    println(stack.pop())
+    println(stack.pop())
 
-    operate(listOf<Employee>())
-    operate(listOf<Person>())
-
-
+    val stack2 = Stack("가","나","다","라")
+    stack2.push("바")
+    println(stack2.pop())
+    println(stack2.pop())
+    println(stack2.pop())
+    println(stack2.pop())
+    println(stack2.pop())
 }
