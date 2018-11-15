@@ -35,6 +35,7 @@
 1. Nested Classes
 1. 타입 별칭
 1. 튜플(페어와 트리플)
+1. 스마트캐스트
 ## 클래스9: 제네릭
 1. Basic
 1. GenericFunction

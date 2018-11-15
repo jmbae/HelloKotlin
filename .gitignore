@@ -51,17 +51,4 @@ build/
 !**/test/**/build
 *.iml
 !**/testData/**/*.iml
-.idea/libraries/Gradle*.xml
-.idea/libraries/Maven*.xml
-.idea/artifacts
-.idea/modules
-.idea/runConfigurations/JPS_*.xml
-.idea/libraries
-.idea/modules.xml
-.idea/gradle.xml
-.idea/compiler.xml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/.name
-HelloKotlin.iml 제거할 예정
-out/production/HelloKotlin/META-INF/ 제거할 예정
-src/ 제거할 예정
+.idea/
