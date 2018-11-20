@@ -1,6 +1,5 @@
 package main.class08
 
-
 typealias CustomerName = String
 
 // Example of using typealias for rename with @Deprecated
